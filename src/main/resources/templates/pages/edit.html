@@ -1,0 +1,35 @@
+<th:block th:fragment="content(route)">
+    <div class="form-horizontal edit-user">
+        <div class="form-header" th:if="${route == 'create'}">Новый пользователь</div>
+        <div class="form-header" th:if="${route == 'edit'}">Редактирование пользователя</div>
+        <div class="form-row">
+            <label for="user-last-name" class="form-label">Фамилия</label>
+            <input type="text" class="form-control" id="user-last-name" placeholder="Иванов" />
+        </div>
+        <div class="form-row">
+            <label for="user-first-name" class="form-label">Имя</label>
+            <input type="text" class="form-control" id="user-first-name" placeholder="Иван" />
+        </div>
+        <div class="form-row">
+            <label for="user-patronymic" class="form-label">Отчество</label>
+            <input type="text" class="form-control" id="user-patronymic" placeholder="Иванович" />
+        </div>
+        <div class="form-row">
+            <label for="user-email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="user-email" placeholder="user@example.com" />
+        </div>
+        <div class="form-row">
+            <label class="form-label">Пол</label>
+            <div class="radio-inputs">
+                <input class="form-check-input" type="radio" name="user-gender" id="user-gender-1" value="5" />
+                <label class="form-check-label" for="user-gender-1">муж</label>
+                <input class="form-check-input" type="radio" name="user-gender" id="user-gender-2" value="-5" />
+                <label class="form-check-label" for="user-gender-1">жен</label>
+            </div>
+        </div>
+        <div class="form-row buttons">
+            <button type="button" class="btn btn-primary">OK</button>
+            <button type="button" class="btn btn-outline-secondary">Отмена</button>
+        </div>
+    </div>
+</th:block>

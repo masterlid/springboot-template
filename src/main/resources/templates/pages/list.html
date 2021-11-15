@@ -1,0 +1,171 @@
+<th:block th:fragment="content">
+    <table class="table-1">
+        <thead>
+            <tr>
+                <th width="10%">ID</th>
+                <th width="10%">Вкл/выкл</th>
+                <th width="15%">Логин</th>
+                <th width="45%">Информация</th>
+                <th width="20%">Действия</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" checked />
+                </td>
+                <td>admin</td>
+                <td>
+                    <section class="info">
+                        <div class="info-row">
+                            <div class="caption">Фамилия</div>
+                            <div clas="data">Админов</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Имя</div>
+                            <div clas="data">Иван</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Отчество</div>
+                            <div clas="data">Иванович</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Пол</div>
+                            <div clas="data">муж</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Email</div>
+                            <div clas="data">ivan.adminov@lid.tv</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Регистрация</div>
+                            <div clas="data">2021-10-14</div>
+                        </div>
+                    </section>
+                </td>
+                <td>
+                    <div class="action">
+                        <div class="action-btn">
+                            <i class="fas fa-edit text-success" title="Редактировать"></i>
+                        </div>
+                        <div class="action-btn">
+                            <i class="fas fa-phone-square text-primary" title="Контакты"></i>
+                        </div>
+                        <div class="action-btn">
+                            <i class="fas fa-times text-danger" title="Удалить"></i>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" />
+                </td>
+                <td>visitor</td>
+                <td>
+                    <section class="info">
+                        <div class="info-row">
+                            <div class="caption">Фамилия</div>
+                            <div clas="data">Визиторов</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Имя</div>
+                            <div clas="data">Виктор</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Отчество</div>
+                            <div clas="data">Викторович</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Пол</div>
+                            <div clas="data">муж</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Email</div>
+                            <div clas="data">viktor.visitorov@lid.tv</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Регистрация</div>
+                            <div clas="data">2021-10-16</div>
+                        </div>
+                    </section>
+                </td>
+                <td>
+                    <div class="action">
+                        <div class="action-btn">
+                            <i class="fas fa-edit text-success" title="Редактировать"></i>
+                        </div>
+                        <div class="action-btn">
+                            <i class="fas fa-phone-square text-primary" title="Контакты"></i>
+                        </div>
+                        <div class="action-btn">
+                            <i class="fas fa-times text-danger" title="Удалить"></i>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" checked />
+                </td>
+                <td>manager</td>
+                <td>
+                    <section class="info">
+                        <div class="info-row">
+                            <div class="caption">Фамилия</div>
+                            <div clas="data">Манжерова</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Имя</div>
+                            <div clas="data">Марина</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Отчество</div>
+                            <div clas="data">Матвеевна</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Пол</div>
+                            <div clas="data">жен</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Email</div>
+                            <div clas="data">marina.manzherova@lid.tv</div>
+                        </div>
+                        <div class="info-row">
+                            <div class="caption">Регистрация</div>
+                            <div clas="data">2021-10-18</div>
+                        </div>
+                    </section>
+                </td>
+                <td>
+                    <div class="action">
+                        <div class="action-btn">
+                            <i class="fas fa-edit text-success" title="Редактировать"></i>
+                        </div>
+                        <div class="action-btn">
+                            <i class="fas fa-phone-square text-primary" title="Контакты"></i>
+                        </div>
+                        <div class="action-btn">
+                            <i class="fas fa-times text-danger" title="Удалить"></i>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <ul class="page-control">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li class="active">4</li>
+        <li>6</li>
+        <li class="skip"></li>
+        <li>7</li>
+        <li>8</li>
+    </ul>
+</th>
